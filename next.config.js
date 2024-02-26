@@ -19,6 +19,30 @@ module.exports = {
         port,
         pathname: `${pathname}/**`,
       },
+      {
+        protocol: 'https',
+        hostname: 'i2.wp.com',
+        port:'',
+        pathname: '/noize.com.br/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'secure.gravatar.com',
+        port:'',
+        pathname: '/avatar/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i1.wp.com',
+        port:'',
+        pathname: '/noize.com.br/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'i0.wp.com',
+        port:'',
+        pathname: '/noize.com.br/**',
+      },
     ],
   },
 };
